@@ -26,6 +26,9 @@ Key design choices:
 Download =gruvbox-light-faded.itermcolors= and import into iTerm2 (Preferences >
 Profiles > Color Presets... > Import...).
 
+If you don't mind downloading extra files, you can download the entire repo from
+[[https://github.com/kvnsmth/iterm2-gruvbox-light-faded/releases/][the latest release]].
+
 * Other Gruvbox iTerm2 Themes
 ** [[https://github.com/morhetz/gruvbox-contrib][morhetz/gruvbox-contrib]]
 A collection of many ports of gruvbox that includes a dark and light variant for
