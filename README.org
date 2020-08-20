@@ -1,19 +1,19 @@
 * iTerm2 Gruvbox Light Faded
-This is my take on a gruvbox light theme for iTerm2 that uses the soft and faded
+This is my take on a [[https://github.com/morhetz/gruvbox][gruvbox]] light theme for iTerm2 that uses the soft and faded
 colors.
 
 Key design choices:
 - The theme uses the =OSX HEX= values from [[https://github.com/morhetz/gruvbox-contrib/blob/master/color.table][this table]]. These look better than
    the default hex values.
-- Most of the design choices were made because I wanted a more muted appearnce,
-   with less stark contrasts.
+- I made most of the design choices to achieve a more muted appearnce, with
+   less stark contrasts.
   + Bold uses =dark1= instead of a white.
   + The normal colors use the =faded_*= variants.
   + The bright colors use the =neutral_*= variants.
   + The background uses =light0_soft=.
   + The cursor guide uses the =light0_hard= to create a subtle indication.
-- I like more contrast for selection scenarios and the white color so the
-   selection, cursor text, and normal white colors use =light0_hard=.
+- I like more contrast for some scenarios so the selection, cursor text, and
+   normal white colors use =light0_hard=.
 
 * Screenshots
 #+CAPTION: Using screenshotTable.sh
