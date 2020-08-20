@@ -1,0 +1,39 @@
+* iTerm2 Gruvbox Light Faded
+This is my take on a gruvbox light theme for iTerm2 that uses the soft and faded
+colors.
+
+Key design choices:
+- The theme uses the =OSX HEX= values from [[https://github.com/morhetz/gruvbox-contrib/blob/master/color.table][this table]]. These look better than
+   the default hex values.
+- Most of the design choices were made because I wanted a more muted appearnce,
+   with less stark contrasts.
+  + Bold uses =dark1= instead of a white.
+  + The normal colors use the =faded_*= variants.
+  + The bright colors use the =neutral_*= variants.
+  + The background uses =light0_soft=.
+  + The cursor guide uses the =light0_hard= to create a subtle indication.
+- I like more contrast for selection scenarios and the white color so the
+   selection, cursor text, and normal white colors use =light0_hard=.
+
+* Screenshots
+#+CAPTION: Using screenshotTable.sh
+[[./screenshots/screenshotTable.png]]
+
+#+CAPTION: Using screenfetch
+[[./screenshots/screenfetch.png]]
+
+* Installation
+Download =gruvbox-light-faded.itermcolors= and import into iTerm2 (Preferences >
+Profiles > Color Presets... > Import...).
+
+* Other Gruvbox iTerm2 Themes
+** [[https://github.com/morhetz/gruvbox-contrib][morhetz/gruvbox-contrib]]
+A collection of many ports of gruvbox that includes a dark and light variant for
+iTerm2. It is maintained by the creator of gruvbox, so I consider this the
+canonical implementation.
+
+** [[https://github.com/mbadolato/iTerm2-Color-Schemes][iTerm2-Color-Schemes]]
+A very comprehensive collection of iTerm2 themes and has a dark and light variant.
+
+** [[https://github.com/herrbischoff/iterm2-gruvbox][herrbischoff/iterm2-gruvbox]]
+A wonderfully implemented gruvbox dark theme.
